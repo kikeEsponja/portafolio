@@ -461,6 +461,9 @@ details, .story > p, .libros > p, ul{
         width: 80px;
         height: 80px; 
     }
+    .filetype{
+        font-size: 13px;
+    }
 }
 @media(max-width: 414px){
     .card{
