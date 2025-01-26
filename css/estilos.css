@@ -210,9 +210,7 @@ nav{
     /*background: #666; */
     border-radius: 6px;
     margin: 1%;
-    transition: 0.3s ease-in-out transform;
-    transition: 0.3s ease-in-out background-size;
-    transition: 0.3s ease-in-out background-position;
+    transition: 0.3s ease-in-out transform, 0.3s ease-in-out background-size, 0.3s ease-in-out background-position;
 }
 .tecnologias > div:hover{
     transform: scale(1.05);
