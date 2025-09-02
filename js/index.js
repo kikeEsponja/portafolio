@@ -185,3 +185,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         repoContainer.innerHTML = "<p>Hubo un error al cargar los repositorios. Por favor, intente más tarde.</p>";
     }
 });
+
+/* TECNOLOGÍAS
+let bootstrap = document.getElementById('bootstrap');
+bootstrap.addEventListener('click', () => {
+    window.location.href = 'https://getbootstrap.com/';
+});*/
