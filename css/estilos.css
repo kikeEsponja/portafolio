@@ -41,6 +41,7 @@ header{
     width: 100%;
     top:0;
 }
+
 section{
     padding: 20px;
     border-radius: 10px;
@@ -146,10 +147,10 @@ nav{
     color: seagreen;
 }
 .sobremi{
-    width: 55%;
+    width: 100%;
     border-radius: 20px;
     margin: 1%;
-    border: dashed #12338f 6px;
+    /*border: solid #e07676 6px;*/
     text-align: center;
 }
 .sobremi > h3{
@@ -255,19 +256,20 @@ nav{
 }
 .card{
     margin: 1%;
-    width: 400px;
+    width: 14rem;
     transition: 0.3s ease-in-out;
     box-shadow: 3px 3px 10px 0 #fa4444;
-}
-.card:hover{
-    transform: scale(1.05);
-    cursor: pointer;
 }
 .card-body{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
+}
+.card > img{
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
 }
 .youtube{
     font-size: 40px;

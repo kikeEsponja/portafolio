@@ -3,7 +3,7 @@ function goBack(){
 }
 
 // TECNOLOGÍAS
-const tech = document.getElementById('tech');
+/*const tech = document.getElementById('tech');
 
 const tecnologias = ['Bootstrap', 'CSS', 'HTML', 'javaScript', 'PHP', 'SQL', 'WordPress'];
 
