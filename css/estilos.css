@@ -147,11 +147,11 @@ nav{
     color: seagreen;
 }
 .sobremi{
-    width: 100%;
+    width: 95%;
     border-radius: 20px;
     margin: 1%;
     /*border: solid #e07676 6px;*/
-    text-align: center;
+    text-align: justify;
 }
 .sobremi > h3{
     margin: 1%;
@@ -218,6 +218,10 @@ nav{
     background-position: center;
     cursor: pointer;
 }
+.bg-foto{
+    background: url('../img/office_picture.png');
+    background-size: cover;
+}
 .bg-bootstrap{
     background: url('../img/colores-bootstrap-5.png');
 }
@@ -265,6 +269,7 @@ nav{
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
+    width: 50%;
 }
 .card > img{
     width: 100%;
